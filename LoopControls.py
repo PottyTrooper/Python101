@@ -1,7 +1,7 @@
 # for loop
 # it is used when we specificaly know the number of repetitions
 for i in range(0, 5, 1):
-    print("😩")
+    print("🤔")
 
 # while loop
 # It is used when we're certain about the number of repetitions
@@ -15,10 +15,10 @@ for i in range(0, 5, 1):
 
 import time
 
-gay_count = 0
-while gay_count < 100:
-    gay_count = gay_count + 1
-    print("🟥" + "-" + str(gay_count))
+rainbow_count = 0
+while rainbow_count < 100:
+    rainbow_count = rainbow_count + 1
+    print("🟥" + "-" + str(rainbow_count))
     time.sleep(0.1)
     print("🟧")
     time.sleep(0.1)
@@ -31,7 +31,7 @@ while gay_count < 100:
     print("🟪")
     time.sleep(0.1)
 
-    if gay_count < 50:
+    if rainbow_count < 50:
         continue
 
     print("wow u patient")
